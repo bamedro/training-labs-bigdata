@@ -10,7 +10,7 @@ sudo apt-get update -y -q
 sudo apt-get install openjdk-17-jdk-headless -y -q
 
 # Download Spark. You can check the latest version of Spark at https://spark.apache.org/downloads.html.
-SPARK_VERSION=3.5.0
+SPARK_VERSION=3.5.1
 wget -nc -q https://dlcdn.apache.org/spark/spark-$SPARK_VERSION/spark-$SPARK_VERSION-bin-hadoop3.tgz
 tar xf spark-$SPARK_VERSION-bin-hadoop3.tgz
 
